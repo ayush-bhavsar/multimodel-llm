@@ -108,6 +108,24 @@ You'll be prompted to choose between test mode (few images) or full processing.
 
 ---
 
+## Sample Output
+
+Here are some examples of extracted invoice data from the dataset:
+
+| Invoice | Date | Seller | Client | Category | Items | Total |
+|---------|------|--------|--------|----------|-------|-------|
+| 11640046 | 11/06/2014 | Atkinson-Woods | Turner Ltd | Technology/IT Equipment | Dell Desktop, Gaming PCs, Ryzen builds | $8,487.82 |
+| 69652053 | 11/19/2014 | Sanders, Reed and Olson | Avila Group | Furnitures | Coffee tables, Marble dining table | $15,096.06 |
+| 57600191 | 03/17/2017 | McKenzie, Johnson and Rich | Dean Inc | Technology/IT Equipment | Nintendo Switch, Sega CDX, Gameboy, Wii | $2,454.03 |
+| 59119338 | 04/11/2017 | Green-Wright | Mosley PLC | Shoes & Clothing | Timberland boots, Soccer cleats, Oxford shoes | $502.74 |
+| 97830664 | 09/04/2015 | Bell LLC | Walls Group | Furnitures | Area rugs, Silk carpets, Shaggy rugs | $12,543.64 |
+| 69614664 | 11/28/2011 | Compton and Sons | Olson, Simon and Smith | Other | Wine bottle opener | $19.69 |
+
+The AI also provides reasoning for each categorization. For example:
+> *"The invoice primarily lists various types of desktop computers and gaming PCs, which clearly fall under the category of Technology/IT Equipment."*
+
+---
+
 ## Output
 
 After processing, results appear in the `output/` folder:
